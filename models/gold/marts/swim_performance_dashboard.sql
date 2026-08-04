@@ -7,7 +7,6 @@ select
     g.twelve_month_goal,
     g.reach_goal
 
-from {{ ref('stg_meet_results') }} m
+from {{ ref("stg_meet_results") }} m
 
-join {{ ref('event_goals') }} g
-    on m.event = g.event
+join {{ ref("event_goals") }} g on m.event = g.event
