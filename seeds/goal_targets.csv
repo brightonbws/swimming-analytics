@@ -1,0 +1,40 @@
+season,event_id,target_date,target_seconds,goal_type,notes
+2026-2027,FR50,2026-08-31,25.80,Monthly,End of August target
+2026-2027,FR50,2026-09-30,25.40,Monthly,End of September target
+2026-2027,FR50,2026-10-31,24.90,Monthly,End of October target
+2026-2027,FR50,2026-12-31,24.20,Monthly,End of December target
+2026-2027,FR50,2027-03-20,23.50,Championship,New England Masters Championships
+2026-2027,FR50,,22.95,Reach,Long-term goal
+
+2026-2027,FR100,2026-08-31,57.20,Monthly,End of August target
+2026-2027,FR100,2026-09-30,56.00,Monthly,End of September target
+2026-2027,FR100,2026-10-31,54.80,Monthly,End of October target
+2026-2027,FR100,2026-12-31,53.50,Monthly,End of December target
+2026-2027,FR100,2027-03-20,52.20,Championship,New England Masters Championships
+2026-2027,FR100,,51.52,Reach,Long-term goal
+
+2026-2027,FR200,2026-10-31,148.00,Monthly,Initial benchmark
+2026-2027,FR200,2026-12-31,138.00,Monthly,End of December target
+2026-2027,FR200,2027-03-20,125.00,Championship,New England Masters Championships
+2026-2027,FR200,,117.73,Reach,Long-term goal
+
+2026-2027,BK50,2026-08-31,31.00,Monthly,End of August target
+2026-2027,BK50,2026-09-30,30.20,Monthly,End of September target
+2026-2027,BK50,2026-10-31,29.40,Monthly,End of October target
+2026-2027,BK50,2026-12-31,28.70,Monthly,End of December target
+2026-2027,BK50,2027-03-20,27.90,Championship,New England Masters Championships
+2026-2027,BK50,,27.48,Reach,Long-term goal
+
+2026-2027,BK100,2026-08-31,68.80,Monthly,End of August target
+2026-2027,BK100,2026-09-30,67.20,Monthly,End of September target
+2026-2027,BK100,2026-10-31,65.50,Monthly,End of October target
+2026-2027,BK100,2026-12-31,63.50,Monthly,End of December target
+2026-2027,BK100,2027-03-20,60.50,Championship,New England Masters Championships
+2026-2027,BK100,,59.37,Reach,Long-term goal
+
+2026-2027,FL50,2026-08-31,28.80,Monthly,End of August target
+2026-2027,FL50,2026-09-30,28.10,Monthly,End of September target
+2026-2027,FL50,2026-10-31,27.30,Monthly,End of October target
+2026-2027,FL50,2026-12-31,26.20,Monthly,End of December target
+2026-2027,FL50,2027-03-20,25.20,Championship,New England Masters Championships
+2026-2027,FL50,,24.69,Reach,Long-term goal

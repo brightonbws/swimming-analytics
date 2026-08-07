@@ -6,11 +6,8 @@ with
         select
             cast(meet_date as date) as meet_date,
             meet_name,
-            event,
-            stroke,
-            distance,
+            event_id,
             time,
-            course,
             notes
 
         from source

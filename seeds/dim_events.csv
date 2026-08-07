@@ -1,0 +1,8 @@
+event_id,event_name,stroke,distance,course,is_primary_event,display_order,is_active
+"FR50",50 Free,Free,50,SCY,true,1,true
+"FR100",100 Free,Free,100,SCY,true,2,true
+"FR200",200 Free,Free,200,SCY,false,3,true
+"BK50",50 Back,Back,50,SCY,true,4,true
+"BK100",100 Back,Back,100,SCY,true,5,true
+"FL50",50 Fly,Fly,50,SCY,true,6,true
+"BR50",50 Breast,Breast,50,SCY,false,7,true

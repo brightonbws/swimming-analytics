@@ -1,6 +1,6 @@
-meet_date,meet_name,event,stroke,distance,time,course,notes
-2026-06-27,Bay State Games,50 Back,Back,50 SCY,31.90,SCY Won Heat,
-2026-06-27,Bay State Games,50 Free,Free,50 SCY,26.11,SCY,Won heat
-2026-06-27,Bay State Games,50 Fly,Fly,50 SCY,29.30,SCY Won Heat,
-2026-06-27,Bay State Games,100 Back,Back,100 SCY,1:10.65,SCY Won Heat,
-2026-06-27,Bay State Games,100 Free,Free,100 SCY,58.08,SCY,Split 28.12 / 29.96
+meet_date,meet_name,event_id,time,notes
+2026-06-27,Bay State Games,BK50,31.90,Won Heat
+2026-06-27,Bay State Games,FR50,26.11,Won Heat
+2026-06-27,Bay State Games,FL50,29.30,Won Heat
+2026-06-27,Bay State Games,BK100,1:10.65,Won Heat
+2026-06-27,Bay State Games,FR100,58.08,Split 28.12 / 29.96
