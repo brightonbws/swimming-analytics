@@ -9,6 +9,10 @@ select
 
     -- Workout Information
     `Workout Type` as workout_type,
+    case
+    when date(`Start`) < date('2026-08-03') then 'return_to_swimming'
+    else '8_week_program'
+    end as training_phase,
 
     cast(`Start` as timestamp) as workout_start_ts,
     cast(`End` as timestamp) as workout_end_ts,
