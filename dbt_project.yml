@@ -31,6 +31,23 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   swimming:
-    # Config indicated by + and applies to all files under models/example/
-    example:
+    bronze:
+      +schema: bronze
       +materialized: view
+    silver:
+      staging:
+        +schema: silver_staging
+        +materialized: view
+      intermediate:
+        +schema: silver_intermediate
+        +materialized: view
+    gold:
+      facts:
+        +schema: gold_facts
+        +materialized: table
+      marts:
+        +schema: gold_marts
+        +materialized: table
+      dashboards:
+        +schema: gold_dashboards
+        +materialized: table
