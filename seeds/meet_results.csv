@@ -1,6 +1,6 @@
-meet_date,meet_name,event_id,time,notes
+meet_date,meet_name,event_id,time_seconds,notes
 2026-06-27,Bay State Games,BK50,31.90,Won Heat
 2026-06-27,Bay State Games,FR50,26.11,Won Heat
 2026-06-27,Bay State Games,FL50,29.30,Won Heat
-2026-06-27,Bay State Games,BK100,1:10.65,Won Heat
+2026-06-27,Bay State Games,BK100,70.65,Won Heat
 2026-06-27,Bay State Games,FR100,58.08,Split 28.12 / 29.96

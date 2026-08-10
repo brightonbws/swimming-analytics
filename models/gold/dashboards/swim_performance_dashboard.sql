@@ -1,6 +1,6 @@
 select
     m.event_id,
-    m.time,
+    m.time_seconds,
     g.target_date,
     g.target_seconds,
     g.goal_type
