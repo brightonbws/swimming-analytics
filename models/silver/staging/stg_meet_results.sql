@@ -1,18 +1,22 @@
 with
-    source as (select * from {{ ref("meet_results") }}),
+    meet_results as (select * from {{ ref("meet_results") }}),
 
-    cleaned as (
+    meet_info as (select * from {{ ref("dim_meets")}} ),
+
+    combined as (
 
         select
-            cast(meet_date as date) as meet_date,
-            meet_name,
-            event_id,
-            time_seconds,
-            notes
+            mi.start_date as meet_date,
+            mi.meet_name,
+            mr.event_id,
+            mr.time_seconds,
+            mr.notes
 
-        from source
+        from meet_results as mr 
+        join meet_info as mi 
+        on mr.meet_id = mi.meet_id
 
     )
 
 select *
-from cleaned
+from combined

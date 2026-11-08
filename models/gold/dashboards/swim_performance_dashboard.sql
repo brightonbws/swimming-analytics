@@ -1,6 +1,6 @@
 select
     m.event_id,
-    m.time_seconds,
+    min(m.time_seconds) fastest_time,
     g.target_date,
     g.target_seconds,
     g.goal_type
@@ -8,3 +8,9 @@ select
 from {{ ref("stg_meet_results") }} m
 
 join {{ ref("goal_targets") }} g on m.event_id = g.event_id
+
+group by
+    m.event_id,
+    g.target_date,
+    g.target_seconds,
+    g.goal_type
