@@ -58,7 +58,10 @@ select
         (unix_timestamp(workout_end_ts) - unix_timestamp(workout_start_ts)) / 60.0, 2
     ) as duration_minutes,
     -- Distance
-    round(distance_miles * 1760, 0) as distance_yards,
+    case
+    when distance_miles > 10 then distance_miles
+    else distance_miles * 1760
+    end as distance_yards,
     round(distance_miles * 1609.344, 2) as distance_meters,
     -- Pace
     round(
